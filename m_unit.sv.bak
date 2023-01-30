@@ -1,5 +1,5 @@
 module m_unit (input logic clk ,input logic [31:0] operand_a, operand_b, input logic [3:0] mul_con,input logic branch_output, output logic [31:0] out_result, output logic out_done, m_busy);
-// hello
+//
     logic [31:0] to_mul_a, to_mul_b, to_div_a, to_div_b, div_quotient, div_remainder;
     logic [63:0] mul_output;
     logic div_start, div_busy, bit_sign, mul_done, mul_start, mul_busy;
